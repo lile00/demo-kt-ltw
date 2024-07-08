@@ -1,0 +1,9 @@
+<aspectj>
+    <aspects>
+        <aspect name="com.example.demoktltw.aspect.CustomAnnotationAspect"/>
+
+        <weaver options="-verbose -showWeaveInfo">
+            <include within="com.example.demoktltw..*"/>
+        </weaver>
+    </aspects>
+</aspectj>
